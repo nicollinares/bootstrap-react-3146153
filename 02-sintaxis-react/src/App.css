@@ -6,11 +6,21 @@
   font-family: sans-serif;
 }
 body{
-  background-color: rgb(11, 11, 80);
+  background-color: rgb(3, 3, 37);
 }
 h1,h2,h3,h4,h5,h6{
   color: white;
 }
 p{
   color: rgb(196, 196, 196);
+}
+.containerCards{
+  display: grid;
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  gap: 1rem;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 6rem;
 }

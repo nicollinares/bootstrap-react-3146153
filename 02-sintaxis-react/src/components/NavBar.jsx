@@ -3,13 +3,10 @@ import "../stylesheets/NavBar.css"
 
 export const NavBar = () => {
   return (
-    <div>
-        <div>
-            <img src="" alt="" />
-            <h2>Extensions</h2>
+        <div className="Barra">
+           <h2> 🌸 Extensions</h2>
+           <button className='boton-mode'>☀️</button>
         </div>
-        <button className="btn-mode" >☀️</button>
-    </div>
   )
 }
 
