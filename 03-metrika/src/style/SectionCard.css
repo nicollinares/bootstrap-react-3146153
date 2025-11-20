@@ -1,0 +1,45 @@
+.card-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-box {
+  background: #ccc;
+  color: white;
+  padding: 25px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+  cursor: pointer;
+}
+
+.card-box span {
+  font-size: 1.2rem;
+}
+
+.card-box .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.green { background: #6bb597; }
+.green2 { background: #7cb9a5; }
+.blue { background: #49a4c8; }
+.pink { background: #c6537e; }
+.red { background: #be6344; }
+.orange { background: #c87a41; }
+.yellow { background: #d19b3d; }
+
+.large {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.wide {
+  grid-column: span 2;
+}
+
+.small {
+  height: 150px;
+}
