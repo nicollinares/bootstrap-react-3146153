@@ -1,0 +1,45 @@
+.navbar-container {
+  width: 100%;
+  background: #b3e1d5;
+  clip-path: polygon(0 0, 100% 0, 90% 60%, 10% 60%);
+  padding: 30px 0;
+}
+
+.navbar-content {
+  position: relative;
+  padding-top: 20px;
+}
+
+/* Centro */
+.logo-nav {
+  width: 150px;
+}
+
+.btn-nav {
+  background: #3bb1c8;
+  color: white;
+  border-radius: 20px;
+  padding: 2px 16px;
+  font-size: 13px;
+}
+
+.btn-nav:hover {
+  background: #2da5b8;
+}
+
+/* Izquierda */
+.nav-link-custom {
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Iconos */
+.nav-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-icon:hover {
+  opacity: 0.7;
+}
