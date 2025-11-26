@@ -1,34 +1,35 @@
-import React from "react";
-import "./NavBar.css";
+
 import "../Styles/NavBar.css"
 
-export const Navbar = () => {
+
+export const NavBar = () => {
   return (
-    <header className="navbar-container">
-      <div className="navbar-content container d-flex justify-content-between align-items-center">
-
-        {/* --- IZQUIERDA --- */}
-        <div className="nav-left d-flex align-items-center gap-4">
-          <span className="nav-link-custom">Conoce el cómic</span>
+     <header className="navbar-wrapper" style={{height:"160px"}}>
+      <nav className="container d-flex justify-content-between align-items-center">
+        
+       
+        <div className="d-flex gap-4 align-items-center ms-auto ">
+          <a href="#" className="nav-link-custom ">Conoce el cómic</a>
+          <a href="#" className="nav-link-custom ">Conoce GlitchVerse</a>
         </div>
 
-        {/* --- CENTRO (LOGO + BOTÓN) --- */}
-        <div className="nav-center d-flex flex-column align-items-center">
-          <img
-            src="/logo.png"
+      
+        <div className="m-auto ">
+          <img 
+            src="./logo.png" 
             alt="GlitchVerse"
-            className="logo-nav"
+            className="logo-img"
           />
-          <button className="btn btn-nav mt-1">Conoce GlitchVerse</button>
         </div>
 
-        {/* --- DERECHA (ICONOS) --- */}
-        <div className="nav-right d-flex align-items-center gap-4">
+    
+        <div className="d-flex gap-3 align-items-center">
           <i className="bi bi-search nav-icon"></i>
-          <i className="bi bi-cart nav-icon"></i>
+          <i className="bi bi-cart3 nav-icon"></i>
         </div>
 
-      </div>
+      </nav>
     </header>
-  );
+    
+  )
 }

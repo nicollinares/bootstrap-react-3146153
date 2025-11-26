@@ -5,8 +5,7 @@ import { InicioCard } from './components/InicioCard'
 export const App = () => {
   return (
     <>
-        <NavBar/>
-        <InicioCard/>
+    <NavBar/>
     </>
   )
 }
