@@ -2,13 +2,13 @@ import React from 'react'
 import { NavBar } from './components/NavBar'
 import { InicioCard } from './components/InicioCard'
 
-export const App = () => {
+function App() {
   return (
     <>
-    <NavBar/>
+      <NavBar />
+      <InicioCard />
     </>
-  )
+  );
 }
 
-
-export default App
+export default App;

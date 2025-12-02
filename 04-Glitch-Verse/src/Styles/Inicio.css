@@ -1,0 +1,34 @@
+.inicio-container {
+  max-width: 900px;
+}
+
+.inicio-title {
+  font-weight: 600;
+  color: #0f6b6f; /* similar al color verde azulado de la imagen */
+}
+
+.inicio-text {
+  max-width: 600px;
+  font-size: 14px;
+  color: #333;
+}
+
+.linea {
+  width: 2px;
+  height: 60px;
+  background-color: black;
+}
+.glitch-title {
+  color: #0f6b6f;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #333;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #0f6b6f;
+}
