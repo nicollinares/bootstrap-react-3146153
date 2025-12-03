@@ -17,8 +17,9 @@
 
 /* Logo en tamaño correcto */
 .logo-img {
-  width: 180px;
+  width: 293px;
   display: block;
+  margin-left: -340px
 }
 
 /* Enlaces */
@@ -27,6 +28,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
+  margin-left: -19rem;
 }
 
 .nav-link-custom:hover {
@@ -42,4 +44,39 @@
 
 .nav-icon:hover {
   transform: scale(1.2);
+}
+.inicio-container {
+  max-width: 900px;
+}
+
+.inicio-title {
+  font-weight: 600;
+  color: #0f6b6f;
+}
+
+.inicio-text {
+  max-width: 600px;
+  font-size: 14px;
+  color: #333;
+  margin-top: 9px;
+}
+
+.linea {
+  width: 2px;
+  height: 74px;
+  background-color: black;
+}
+.glitch-title {
+  color: #0f6b6f;
+  font-size: 1.4rem;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #333;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #0f6b6f;
 }

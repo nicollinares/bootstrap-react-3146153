@@ -1,34 +1,26 @@
-.inicio-container {
-  max-width: 900px;
+.inicio-section {
+  background-color: #c7dce9; /* azul claro similar al de la imagen */
+  padding: 60px 30px;
+  border-radius: 10px;
 }
 
-.inicio-title {
+.btn-titulo {
+  background-color: #b0e5c8; /* verde suave como el botón de ejemplo */
+  color: #000;
   font-weight: 600;
-  color: #0f6b6f; /* similar al color verde azulado de la imagen */
+  border-radius: 20px;
+  padding: 8px 20px;
+  border: none;
 }
 
-.inicio-text {
-  max-width: 600px;
-  font-size: 14px;
-  color: #333;
+.texto-descripcion {
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 520px;
+  margin: 0 auto;
 }
 
-.linea {
-  width: 2px;
-  height: 60px;
-  background-color: black;
-}
-.glitch-title {
-  color: #0f6b6f;
-  font-size: 1.4rem;
-}
-
-.nav-link {
-  font-weight: 500;
-  color: #333;
-  transition: 0.3s;
-}
-
-.nav-link:hover {
-  color: #0f6b6f;
+.img-ilustracion {
+  max-width: 330px;
+  border-radius: 10px;
 }
