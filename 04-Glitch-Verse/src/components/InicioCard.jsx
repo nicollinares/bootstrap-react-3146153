@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavBar } from './NavBar'
-
+import "../Styles/Inicio.css"
 
 export const InicioCard = () => {
   return (
@@ -9,10 +9,9 @@ export const InicioCard = () => {
       <h3 className="inicio-title">Conoce GlitchVerse</h3>
 
       <div className="d-flex justify-content-center align-items-center mt-3">
-        {/* Línea izquierda */}
+        
         <div className="linea"></div>
 
-        {/* Texto principal */}
         <h1 className="inicio-text">
           Nuestra marca se enfoca en busca la mejoría en el trato que le
           podemos dar a la tecnología, buscando a través de un cómic interactivo,
@@ -20,7 +19,6 @@ export const InicioCard = () => {
           sociales y la tecnología.
         </h1>
 
-        {/* Línea derecha */}
         <div className="linea"></div>
       </div>
 
@@ -31,7 +29,6 @@ export const InicioCard = () => {
       <div className="inicio-section d-flex justify-content-center align-items-center">
         <div className="container row align-items-center g-4">
 
-          {/* --- TEXTO IZQUIERDA --- */}
           <div className="col-md-7 text-center text-md-start">
             <button className="btn-titulo mb-4">
               ¿Cómo nació nuestra marca?
@@ -47,12 +44,15 @@ export const InicioCard = () => {
             </p>
           </div>
 
-          {/* --- IMAGEN DERECHA --- */}
+      
           <div className="col-md-5 text-center">
-            <img
-              src="/img/ilustracion.png"
-              className="img-fluid img-ilustracion"
+          
+           <img 
+            src="./chicas.png"
+            alt="GlitchVerse"
+            className="chicas-img"
             />
+
           </div>
         </div>
       </div>

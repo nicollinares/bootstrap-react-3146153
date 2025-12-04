@@ -4,7 +4,7 @@ import "../Styles/NavBar.css"
 export const NavBar = () => {
   return (
     <header className="navbar-wrapper" style={{ height: "160px" }}>
-      <nav className="container d-flex justify-content-between align-items-center">
+      <nav className="">
 
 
         <div className="d-flex gap-4 align-items-center ms-auto ">

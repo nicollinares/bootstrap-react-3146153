@@ -1,11 +1,13 @@
 .inicio-section {
-  background-color: #c7dce9; /* azul claro similar al de la imagen */
+  background-color: #c7dce9;
   padding: 60px 30px;
-  border-radius: 10px;
+  margin-top: 5rem;
+  width: 80rem;
+  margin-left: -13rem;
 }
 
 .btn-titulo {
-  background-color: #b0e5c8; /* verde suave como el botón de ejemplo */
+  background-color: #b0e5c8; 
   color: #000;
   font-weight: 600;
   border-radius: 20px;
@@ -20,7 +22,3 @@
   margin: 0 auto;
 }
 
-.img-ilustracion {
-  max-width: 330px;
-  border-radius: 10px;
-}
