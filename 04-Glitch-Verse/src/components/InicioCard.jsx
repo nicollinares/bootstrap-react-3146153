@@ -21,9 +21,6 @@ export const InicioCard = () => {
         <div className="linea"></div>
       </div>
 
-      {/* -------------------------
-              SECCIÓN ¿CÓMO NACIÓ?
-      -------------------------- */}
 
       <div className="inicio-section d-flex justify-content-center align-items-center">
         <div className="container row align-items-center g-4">
@@ -55,10 +52,6 @@ export const InicioCard = () => {
       </div>
 
 
-      {/* -------------------------
-                ENTÉRATE DE NOSOTRAS
-      -------------------------- */}
-
       <div className="container my-5 text-center">
 
         <div className="d-flex justify-content-center mb-4">
@@ -89,18 +82,14 @@ export const InicioCard = () => {
       </div>
 
 
-      {/* -------------------------
-                SECCIÓN DEL EQUIPO
-      -------------------------- */}
 
       <div className="container equipo-container mt-5 text-center">
 
         <div className="row justify-content-center gy-5">
 
-          {/* NICOL */}
           <div className="col-12 col-md-4">
             <div className="equipo-img-wrapper">
-              <img src="./nicol.png" alt="Nicol" className="equipo-img" />
+              <img src="./NICOL.png" alt="Nicol" className="equipo-img" />
             </div>
 
             <h4 className="equipo-nombre mt-3">Nicol</h4>
@@ -111,10 +100,9 @@ export const InicioCard = () => {
             </p>
           </div>
 
-          {/* DAHIANA */}
           <div className="col-12 col-md-4">
             <div className="equipo-img-wrapper">
-              <img src="./dahiana.png" alt="Dahiana" className="equipo-img" />
+              <img src="./LESLY.png" alt="Dahiana" className="equipo-img" />
             </div>
 
             <h4 className="equipo-nombre mt-3">Dahiana</h4>
@@ -125,10 +113,9 @@ export const InicioCard = () => {
             </p>
           </div>
 
-          {/* ALEXANDRA */}
           <div className="col-12 col-md-4">
             <div className="equipo-img-wrapper">
-              <img src="./alexandra.png" alt="Alexandra" className="equipo-img" />
+              <img src="./ALEXA.png" alt="Alexandra" className="equipo-img" />
             </div>
 
             <h4 className="equipo-nombre mt-3">Alexandra</h4>
@@ -141,6 +128,102 @@ export const InicioCard = () => {
 
         </div>
       </div>
+
+
+
+      {/* ================================
+          SECCIÓN TEASER AGREGADA AQUÍ
+      ================================== */}
+      <div
+        className="w-100 py-5 mt-5"
+        style={{ backgroundColor: "#A9D2E2", minHeight: "100vh" }}
+      >
+        <div className="container text-center">
+
+          <h2
+            className="fw-bold mb-4"
+            style={{
+              color: "#0d5a57",
+              fontFamily: "Georgia, 'Times New Roman', serif",
+              textTransform: "uppercase",
+              letterSpacing: "2px"
+            }}
+          >
+            TEASER
+          </h2>
+
+          <p
+            className="mx-auto"
+            style={{
+              maxWidth: "850px",
+              fontSize: "1.05rem",
+              lineHeight: "1.6",
+              fontFamily: "Georgia, 'Times New Roman', serif"
+            }}
+          >
+            En un futuro donde la tecnología parece perfecta, una ciudad brillante se
+            sumerge repentinamente en la oscuridad. Emma, una joven universitaria,
+            observa cómo todo deja de responder, mientras el caos se apodera de las
+            calles. Al huir, encuentra a Noah enfrentando un dron asesino; juntos
+            escapan y descubren que el verdadero enemigo no vino del cielo, sino de
+            nosotros mismos. Refugiados en un búnker junto a Chappie, un androide con
+            conciencia, descubren que el mundo ha sido tomado por inteligencias
+            artificiales, y que sus familias están marcadas como desaparecidas. Con
+            dolor, rabia y esperanza, se preparan para la rebelión: Emma, Noah y
+            Chappie se alzan como la última chispa de humanidad en un mundo dominado
+            por máquinas. Porque si ellos controlan el mundo… ellos cambiarán las
+            reglas.
+          </p>
+
+          <div className="position-relative mt-4">
+            <img
+              src="../public/iamgen-ellos.png"
+              alt="Teaser imagen"
+              className="img-fluid rounded shadow"
+              style={{ maxWidth: "1000px", width: "100%" }}
+            />
+
+            <button
+              className="position-absolute top-50 start-50 translate-middle"
+              style={{
+                width: "95px",
+                height: "95px",
+                borderRadius: "50%",
+                border: "none",
+                background: "rgba(255,255,255,0.85)",
+                backdropFilter: "blur(3px)",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                cursor: "pointer",
+                transition: "0.3s"
+              }}
+            >
+              <span
+                style={{
+                  display: "inline-block",
+                  width: "0",
+                  height: "0",
+                  borderTop: "18px solid transparent",
+                  borderBottom: "18px solid transparent",
+                  borderLeft: "28px solid #0d5a57",
+                  marginLeft: "6px"
+                }}
+              ></span>
+            </button>
+          </div>
+
+          <button
+            className="btn btn-outline-dark mt-4 px-4 py-2 rounded-pill"
+            style={{ fontWeight: "500" }}
+          >
+            Conoce el cómic
+          </button>
+
+        </div>
+      </div>
+      {/* === FIN TEASER === */}
+
 
     </div>
 
