@@ -5,7 +5,12 @@ import "../Styles/Inicio.css"
 export const InicioCard = () => {
   return (
 
+
+
     <div className="container inicio-container text-center mt-5 mb-5">
+
+
+      
       <h3 className="inicio-title">Conoce GlitchVerse</h3>
 
       <div className="d-flex justify-content-center align-items-center mt-3">
@@ -85,7 +90,7 @@ export const InicioCard = () => {
 
       <div className="container equipo-container mt-5 text-center">
 
-        <div className="row justify-content-center gy-5">
+        <div style={{gap:'4rem'}} className="row justify-content-center ">
 
           <div className="col-12 col-md-4">
             <div className="equipo-img-wrapper">
@@ -111,6 +116,8 @@ export const InicioCard = () => {
               Creadora de redes, cuenta con un buen manejo de cada una de estas.
               Ella se encarga de buscar colaboradoras.
             </p>
+
+            
           </div>
 
           <div className="col-12 col-md-4">
@@ -131,11 +138,9 @@ export const InicioCard = () => {
 
 
 
-      {/* ================================
-          SECCIÓN TEASER AGREGADA AQUÍ
-      ================================== */}
+
       <div
-        className="w-100 py-5 mt-5"
+        className="w-100 py-5 mt-5 "
         style={{ backgroundColor: "#A9D2E2", minHeight: "100vh" }}
       >
         <div className="container text-center">
@@ -222,19 +227,8 @@ export const InicioCard = () => {
 
         </div>
       </div>
-      {/* === FIN TEASER === */}
-
 
     </div>
-
-
-
-
-
-
-
-
-
 
 
 
